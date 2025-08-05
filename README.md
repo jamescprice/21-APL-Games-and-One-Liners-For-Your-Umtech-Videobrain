@@ -63,4 +63,7 @@ https://www.oldcomputers.net/videobrain.html – great images of system internal
 https://forums.atariage.com/topic/71151-videobrain-anyone-have-info/ - community discussion from before the APL/S ROMs were found
 
 
+https://www.ballyalley.com/articles_and_news/creative_computing_article.pdf – two Creative Computing articles
+
+
 
