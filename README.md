@@ -1,2 +1,2 @@
 # 21-APL-Games-and-One-Liners-For-Your-Umtech-Videobrain
-APL games for using with The Computational Language cartridge 
+APL/S games for using with The Computational Language cartridge on the Umtech Videobrain
