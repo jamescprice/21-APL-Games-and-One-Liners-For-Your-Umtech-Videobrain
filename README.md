@@ -65,5 +65,7 @@ https://forums.atariage.com/topic/71151-videobrain-anyone-have-info/ - community
 
 https://www.ballyalley.com/articles_and_news/creative_computing_article.pdf – two Creative Computing articles
 
+https://www.worldradiohistory.com/Archive-Poptronics/70s/1979/Poptronics-1979-02.pdf   Popular Electronics 2/1979 APL /S-A BETTER LANGUAGE?   Leslie Solomon  p92
+
 
 
