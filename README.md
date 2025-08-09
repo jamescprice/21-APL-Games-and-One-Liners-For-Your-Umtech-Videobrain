@@ -27,6 +27,9 @@ Documentation of The Computational Language APL/S:
 https://archive.org/details/byte-magazine-1979-12/page/n81/mode/2up “APL/S: An Alternative” by Robert G. Brown BYTE magazine 12/1979
 
 https://archive.computerhistory.org/resources/access/text/2024/06/102804524-05-001-acc.pdf – Two papers: "An Introduction to APL/S". Conference Proceedings of the Third West Coast Computer Faire” by Robert G. Brown  p247 and “VideoBrain and the APL/S Language: First Pass at Everyman’s Computer” by Ted Haynes p246
+
+https://aplwiki.com/wiki/APL/S   Great technical writeup of the language at APL Wiki
+
 https://groups.io/g/Channel-F-and-VideoBrain/attachment/21/0/ALPS-Brochure.pdf – includes lunar lander game
 
 https://forum.vcfed.org/index.php?threads/i-have-been-blessed-with-videobrain-documentation.80042/ - links to zip file with great documentation and schematics
