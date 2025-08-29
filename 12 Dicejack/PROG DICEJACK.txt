@@ -1,4 +1,5 @@
 PROG DJ
+BARC 2 3
 BARH +/(Z=RAND 6 6),0
 Z
 WHIL 1
@@ -46,4 +47,5 @@ THEN
       ENDI  
    ENDI
 ENDI
+
 ENDP
