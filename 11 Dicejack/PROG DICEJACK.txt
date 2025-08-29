@@ -1,0 +1,49 @@
+PROG DJ
+BARH +/(Z=RAND 6 6),0
+Z
+WHIL 1
+DO
+   ‘HIT? 1/0’ 
+   C=KEYB
+   IF C EQ 0 
+   THEN EXIT
+   ENDI
+   IF C EQ 1
+   THEN 
+      Z=Z,RAND 6
+      Z
+      BARH +/Z
+      IF +/Z GT 21
+      THEN "BUSTED"
+         EXIT
+      ENDI
+   ENDI
+ENDW
++/Z
+IF +/Z LE 21
+THEN 
+   D=0   //DEALER NOT BUSTED
+   X=RAND 6 6
+   X
+   WHIL +/Z GE +/X    
+   DO
+      X=X,RAND 6
+      X
+      BARH +/Z,+/X
+      IF +/X GT 21
+      THEN "I BUSTED"
+         D=1
+         EXIT
+      ENDI    
+   ENDW
+   +/X
+   IF D EQ 1
+   THEN "YOU WIN"   
+   ELSE 
+      IF +/X GT +/Z 
+      THEN "I WIN"
+      ELSE "YOU WIN" 
+      ENDI  
+   ENDI
+ENDI
+ENDP
