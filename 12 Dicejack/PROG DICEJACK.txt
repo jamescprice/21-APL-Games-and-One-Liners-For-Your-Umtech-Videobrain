@@ -1,5 +1,4 @@
 PROG DICEJACK   
-‘YOUR CARDS’
 Z=RAND 6 6
 Z
 B=0
@@ -25,7 +24,6 @@ ENDW
 IF B NE 1
 THEN 
    D=0   //DEALER NOT BUSTED
-   "MY CARDS"
    X=RAND 6 6
    X
    WHIL +/Z GE +/X    
@@ -46,4 +44,5 @@ THEN
      ENDI  
    ENDI
 ENDI
+
 ENDP
