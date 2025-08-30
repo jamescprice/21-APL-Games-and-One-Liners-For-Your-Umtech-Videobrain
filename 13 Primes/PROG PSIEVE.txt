@@ -1,0 +1,19 @@
+PROG SIEVE
+N=INDEX 198
+I=2
+WHIL I LE SIZE N * .5   
+DO   
+   IF N(I) EQ 0
+   THEN EXIT
+   ELSE
+      J=IxI
+      WHILE J LE SIZE N
+      DO
+         N(J)=0
+         J=J+I
+      ENDW
+   ENDI
+   I=I+1
+ENDW 
+N
+ENDP
