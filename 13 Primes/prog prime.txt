@@ -1,0 +1,25 @@
+PROG P
+I=5
+UPTO=23
+WHIL I LE UPTO    //OUTERLOOP
+DO      
+   PRIM=1
+   IF I MOD 2 EQ 0
+   THEN PRIM=0
+   ELSE  
+      J=3    
+      WHIL J LE  I *  .5
+       DO 
+          IF I MOD J EQ 0
+          THEN PRIM=0
+             EXIT
+          ELSE J=J+2 
+          ENDI
+       ENDW
+   ENDI 
+   IF PRIM EQ 1    //EQ NOT =  
+   THEN I
+   ENDI
+   I=I+1
+ENDW 
+ENDP
