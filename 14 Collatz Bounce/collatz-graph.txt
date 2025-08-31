@@ -1,0 +1,43 @@
+PROG COLLATZ
+SCORE=0
+"ENTER YOUR NUMBER TO COLLATZ BOUNCE"
+I=KEYB
+WHILE I NE 1
+DO      
+   IF I MOD 2 EQ 0
+   THEN I=I/2
+   ELSE I=1+3xI
+   ENDI 
+   SCORE=SCORE+1
+   I
+   ID=I
+   P=100000
+   A=ARRAY 7 //
+   WHIL P GE 1
+   DO
+      D=FLOO (ID/P)
+      ID=ID-(DxP)
+      P=P/10  
+      A(6-(10 LOG P))=D
+   ENDW
+BARH Ax7
+ENDW 
+"YOUR SCORE IS"
+SCORE
+ENDP
+
+
+
+add:
+p=100 000
+whil p gt 1
+d=floor i/p
+d
+i=i - dxp    /////ruins i
+p=p/10
+endw
+
+ENDP
+
+
+SCORE = ORIINAL / SCOREC
