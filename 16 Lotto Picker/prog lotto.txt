@@ -1,0 +1,23 @@
+PROG LOTTO
+
+//5 BETWEEN 1 - 69
+//1 1-26
+
+B=INDEX 69
+P=RAND 26
+W=ARRAY 5
+C=1
+WHILE C LE 5
+DO
+   R=RAND 69
+   IF B(R) EQ  0  //EQ
+   THEN "NO"
+   ELSE W(C)=R
+      B(R)=0
+      C=C+1
+   ENDI
+ENDW
+W,P
+BARC INDEX 6
+BARH .9x(W,P)
+ENDP
