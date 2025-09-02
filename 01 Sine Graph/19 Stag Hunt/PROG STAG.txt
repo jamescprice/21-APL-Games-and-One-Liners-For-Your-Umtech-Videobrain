@@ -1,0 +1,36 @@
+PROG STAG
+WHIL 1
+DO
+   BARH 0 0 0 
+   'STAG OR HARE? 1 OR O"
+   I=KEYB
+   IF I EQ 99
+   THEN EXIT
+   ENDI
+   C=-1+RAND 2
+   IF I EQ 1
+   THEN
+      IF C EQ 1
+      THEN
+         "I CHOSE STAG TOO"
+         Q=10
+      ELSE
+         "I CHOSE HARE."
+         Q=1
+      ENDI
+   ELSE
+      IF C EQ 0
+      THEN
+         "I CHOSE HARE TOO"
+         Q=5
+      ELSE
+         "I CHOSE STAG."
+         Q=1
+      ENDI
+   ENDI
+   BARC 2 3 4
+   BARH ((-20+I×40),(-20+C×40),(Q×6))
+   'YOUR PAYOUT IS"
+   Q
+ENDW
+ENDP
