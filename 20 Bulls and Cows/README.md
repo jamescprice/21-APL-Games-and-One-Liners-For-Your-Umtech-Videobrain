@@ -29,3 +29,5 @@ https://web.archive.org/web/20120425120039/http://www.jfwaf.com/Bulls%20and%20Co
 https://codebreaker-mastermind-superhirn.blogspot.com/2012/07/bulls-and-cows-mastermind-superhirn.html
 
 https://www.multicians.org/moo-in-multics-1972.pdf
+
+https://www.wikihow.com/Play-Mastermind
