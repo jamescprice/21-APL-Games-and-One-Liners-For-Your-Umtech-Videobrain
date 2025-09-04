@@ -1,5 +1,7 @@
 see https://en.wikipedia.org/wiki/Bulls_and_cows
 
+https://www.jsoftware.com/papers/50/50_27.htm
+
 https://en.wikipedia.org/wiki/Mastermind_(board_game)
 
 https://archive.org/details/h42_DECUS_8-394/page/n3/mode/2up
