@@ -1,0 +1,44 @@
+PROG MOO4
+WHIL 1
+DO
+   Z= RAND 5 5 5 5
+   IF +/(Z(1) EQ Z) EQ 1
+   THEN 
+      IF +/(Z(2) EQ Z) EQ 1
+      THEN 
+         IF +/(Z(2) EQ Z) EQ 1
+         THEN 
+           EXIT
+         ENDI
+      ENDI
+   ENDI
+ENDW
+"GUESS THE 4 NUMBERS"
+WHIL 1 
+DO                  
+   I=KEYB                 
+   IF I(1) EQ 99       
+   THEN 
+      EXIT
+   ENDI
+   X=+/(Z EQ I) 
+   IF 4 EQ X
+   THEN "YOU WIN" 
+      EXIT
+   ELSE
+      C=X
+      J=1
+      R=0
+      WHIL J LE 4    //CORRECT COLOR WRONG SPOT
+      DO
+         IF Z(J) NE I(J)
+         THEN
+            R=R+ (+/(Z(J) EQ I ) )
+         ENDI
+      J=J+1  
+      ENDW
+   "WHITE/RED"
+   C,R
+   ENDI
+ENDW
+ENDP
