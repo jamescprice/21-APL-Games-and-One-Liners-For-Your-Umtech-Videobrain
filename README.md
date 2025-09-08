@@ -16,6 +16,8 @@ https://www.seanriddle.com/vbinfo.html
 
 https://www.seanriddle.com/vb/
 
+https://orphanedgames.com/videobrain/f8_programming/f8_source.htm
+
 https://groups.io/g/Channel-F-and-VideoBrain/topic/101298602#msg23  - discussion of the ROMs
 
 (also see https://groups.io/g/Channel-F-and-VideoBrain/topic/74811426#msg7 and https://groups.io/g/Channel-F-and-VideoBrain/attachment/19/0/VideoBrain-APLS-Lot.jpg)
