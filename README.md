@@ -22,7 +22,7 @@ https://groups.io/g/Channel-F-and-VideoBrain/topic/101298602#msg23  - discussion
 
 (also see https://groups.io/g/Channel-F-and-VideoBrain/topic/74811426#msg7 and https://groups.io/g/Channel-F-and-VideoBrain/attachment/19/0/VideoBrain-APLS-Lot.jpg)
 
-
+https://channelf.se/veswiki/index.php?title=Main_Page
 
 Documentation of The Computational Language APL/S:
 
