@@ -72,5 +72,5 @@ https://www.ballyalley.com/articles_and_news/creative_computing_article.pdf – 
 
 https://www.worldradiohistory.com/Archive-Poptronics/70s/1979/Poptronics-1979-02.pdf   Popular Electronics 2/1979 APL /S-A BETTER LANGUAGE?   Leslie Solomon  p92
 
-
+https://www.youtube.com/watch?v=VNGkQ64xYZI
 
