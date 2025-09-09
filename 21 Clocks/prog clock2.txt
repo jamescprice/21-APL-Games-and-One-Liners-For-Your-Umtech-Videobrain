@@ -1,0 +1,35 @@
+prog clock
+mont=9
+d=8
+h=12
+m=1
+s=0
+barc index 7
+whil 1
+do
+   s=s+1   
+   if s EQ 60
+   then s=0
+      m=m+1
+   endi
+   if m EQ 60 
+      then m=0
+         h=h+1
+   endi
+   if h eq 24 then
+         h=0
+         d=d+1
+   endi
+   if d EQ 30 then
+      d=1
+      month=month+1
+   endi
+   if month EQ 13
+   then month=1
+   endi
+   barh month,d,h,m,s
+   month,d,h,m,s
+endw
+endp
+             
+              
