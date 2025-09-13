@@ -10,9 +10,9 @@ C=1
 WHILE C LE 5
 DO
    R=RAND 69
-   IF B(R) EQ  0  //EQ
-   THEN "NO"
-   ELSE W(C)=R
+   IF B(R) NE 0  
+   THEN  
+      W(C)=R
       B(R)=0
       C=C+1
    ENDI
@@ -20,4 +20,5 @@ ENDW
 W,P
 BARC INDEX 6
 BARH .9x(W,P)
+
 ENDP
