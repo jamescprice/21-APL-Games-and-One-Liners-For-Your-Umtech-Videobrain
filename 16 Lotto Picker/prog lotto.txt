@@ -1,7 +1,7 @@
 PROG LOTTO
 
-//5 BETWEEN 1 - 69
-//1 1-26
+// Pick 5 between 1 and 69
+// Pick 1 between 1 and 26
 
 B=INDEX 69
 P=RAND 26
@@ -22,3 +22,4 @@ BARC INDEX 6
 BARH .9x(W,P)
 
 ENDP
+
