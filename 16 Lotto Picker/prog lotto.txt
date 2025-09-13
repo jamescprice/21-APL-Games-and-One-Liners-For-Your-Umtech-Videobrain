@@ -20,6 +20,6 @@ ENDW
 W,P
 BARC INDEX 6
 BARH .9x(W,P)
-
 ENDP
+
 
