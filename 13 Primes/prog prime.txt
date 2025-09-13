@@ -1,7 +1,7 @@
 PROG P
 I=5
 UPTO=23
-WHIL I LE UPTO    //OUTERLOOP
+WHIL I LE UPTO    
 DO      
    PRIM=1
    IF I MOD 2 EQ 0
@@ -17,9 +17,10 @@ DO
           ENDI
        ENDW
    ENDI 
-   IF PRIM EQ 1    //EQ NOT =  
+   IF PRIM EQ 1    
    THEN I
    ENDI
    I=I+1
 ENDW 
+
 ENDP
