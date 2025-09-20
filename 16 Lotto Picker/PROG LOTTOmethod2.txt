@@ -1,0 +1,21 @@
+PROG LOTTOmethod2
+
+// Pick 5 BETWEEN 1 and 69
+// Pick 1 between 1 and 26
+
+P=RAND 26
+W=ARRAY 5
+C=1
+WHILE C LE 5
+DO
+   R=RAND 69
+   IF (+/ (R EQ W) EQ 0)  
+   THEN  
+      W(C)=R
+      C=C+1
+   ENDI
+ENDW
+W,P
+BARC INDEX 6
+BARH .9x(W,P)
+ENDP
