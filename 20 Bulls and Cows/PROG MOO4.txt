@@ -6,7 +6,7 @@ DO
    THEN 
       IF +/(Z(2) EQ Z) EQ 1
       THEN 
-         IF +/(Z(2) EQ Z) EQ 1
+         IF +/(Z(3) EQ Z) EQ 1
          THEN 
            EXIT
          ENDI
@@ -41,4 +41,5 @@ DO
    C,R
    ENDI
 ENDW
+
 ENDP
