@@ -1,0 +1,40 @@
+PROG ROULETTE
+M=100
+RR=1 3 5 7 9 12 14 16 18 19 21 25 27 30 32 34 36
+G=2 4 6 8 10 11 13 15 17 20 22 24 26 28 29 31 33 35
+WHILE 1
+DO
+   M=M-1
+   "ENTER 1 FOR RED 2 FOR BLACK 3 FOR A NUMBER"
+   P=KEYB
+   IF P EQ 3 
+   THEN
+      N=KEYB
+      IF N EQ 99 
+      THEN EXIT
+      ENDI
+   ENDI
+   S=RANDOM 37 
+   S=S-1
+   S
+   IF (P EQ 3) AND (S EQ N)
+   THEN
+      "YOU WIN"
+      M=M+5
+      ELSE
+      IF (P EQ 1) AND ( +/ (S EQ RR))
+      THEN
+         "YOU WIN"
+         M=M+2
+         ELSE
+         IF   (P EQ 2) AND ( +/ (S EQ G))
+         THEN
+            "YOU WIN"
+             M=M+2
+             ELSE "YOU LOSE"
+         ENDI
+      ENDI
+   ENDI
+   M
+ENDW
+ENDP
