@@ -1,0 +1,40 @@
+PROG SLOT
+CASH=100
+BARH 20 20 20
+WHILE 1
+DO CASH
+“BET $1?”
+IF 0 GE BET=KEYB
+THEN EXIT
+ENDIF
+BARC 6 6 6
+BARC 6 6 6
+BARC 6 6 6
+BARC 6 6 6
+BARC 6 6 6
+BARC 6 6 6
+Z=RAND 6 6 6
+BARC Z
+I=+/ (Z(1) EQ Z)
+IF I EQ 3
+THEN 
+   “3 OF A KIND”
+   CASH=CASH+5
+ELSE 
+IF I EQ 2
+THEN 
+   “2 OF A KIND”
+   CASH=CASH+3
+   ELSE 
+      J=+/ (Z(3) EQ Z)  
+      IF J EQ 2
+      THEN
+         “2 OF A KIND”
+         CASH=CASH+3
+      ENDIF
+   ENDIF
+ENDIF
+CASH=CASH-1
+ENDWHILE
+ENDP
+                                                                
