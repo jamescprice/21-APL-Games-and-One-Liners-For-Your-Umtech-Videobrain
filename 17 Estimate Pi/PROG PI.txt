@@ -8,10 +8,11 @@ DO
    X=(RAND 1000000) ÷ 100000
    Y=(RAND 1000000) ÷ 100000
 
-   D=(XXX)+(YXY)
+   D=(X×X)+(Y×Y)
    IF D LE 1
    THEN IN=IN+1
    ENDI
    C=C+1
 ENDW
-(4XIN) ÷ I
+(4×IN) ÷ I
+ENDP
