@@ -1,0 +1,51 @@
+
+barc index 7
+y=25
+m=2
+d=29
+h=23
+t=59
+s=50   //do these outside program first
+prog clock
+whil 1
+do
+   s=s+2   
+   if s ge 60
+   then s=0
+      m=m+1
+   endi
+   if m EQ 60 
+      then m=0
+         h=h+1
+   endi
+   if h eq 24 then
+         h=0
+         d=d+1
+   endi                
+   if (d eq 30) and (o eq 2) 
+   then d=1  
+      o=3 
+   endi                     
+   if (d eq 29) and (o eq 2) and ((y mod 4) ne 0)
+   then d=1
+   o=3
+   endi
+   if (d eq 31) and (+/(o eq 4 6 8 9 11))
+   then
+      d=1                  
+      o=o+1        
+   endi
+   if d eq 32 
+   then d=1 
+      o=o+1 
+   endi
+   if o EQ 13
+   then o=1
+       y=y+1
+   endi
+   barh y,o,d,h,m,s
+   y,o,d,h,m,s
+endw
+endp
+         `    
+              ed
