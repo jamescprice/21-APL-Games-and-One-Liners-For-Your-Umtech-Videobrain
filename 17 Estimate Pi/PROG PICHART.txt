@@ -5,18 +5,19 @@ C=1
 I=KEYB
 WHILE C LE I
 DO
-   X=(RAND 1000000) ÷ 100000
-   Y=(RAND 1000000) ÷ 100000
+   X=(RAND 1000000) ÷ 1000000
+   Y=(RAND 1000000) ÷ 1000000
    D=(X×X)+(Y×Y)
    IF D LE 1
    THEN IN=IN+1
       BARC C
       BARH 30
    ELSE
-      BARC
+      BARC C
       BARH -30
    ENDI
    C=C+1
 ENDW
 (4XIN) ÷ I
 ENDP
+
