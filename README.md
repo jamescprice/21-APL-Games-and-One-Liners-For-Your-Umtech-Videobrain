@@ -52,6 +52,8 @@ https://www.orphanedgames.com/videobrain/
 
 More links:
 
+System Manual with image of keyboard keys - http://hcvgm.org/Static/Manuals/VideoBrain/VB_Unit_Manual.pdf
+
 https://randoc.wordpress.com/category/umtech-videobrain/ - great discussion with many good links
 
 https://www.atariprotos.com/othersystems/videobrain/cartridges/apls/apls.htm
