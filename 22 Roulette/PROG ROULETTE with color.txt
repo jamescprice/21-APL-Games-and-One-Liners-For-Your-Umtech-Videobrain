@@ -1,11 +1,14 @@
-/N=0
-barh 30/////////
+ROULETTE with color
 
-PROG RO     ULETTE with color
+First type in
+N=0
+BARH 30
+Then enter the program
+
+PROG RO
 M=100
 R=1 3 5 7 9 12 14 16 18 19 21 25 27 30 32 34 36
 G=2 4 6 8 10 11 13 15 17 20 22 24 26 28 29 31 33 35
-      
 WHILE 1
 DO
    M=M-1
@@ -32,14 +35,13 @@ DO
    THEN "YOU WIN"
       M=M+35
       ELSE
-      IF (P EQ 1) AND ( +/ (S EQ R))
+      IF (P EQ 1) AND (+/(S EQ R))
       THEN "YOU WIN"
          M=M+2
          ELSE
-         IF   (P EQ 2) AND ( +/ (S EQ G))
+         IF (P EQ 2) AND (+/(S EQ G))
          THEN "YOU WIN"
              M=M+2
-
              ELSE "YOU LOSE"
          ENDI
       ENDI
