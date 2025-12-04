@@ -1,7 +1,11 @@
-PROG ROULETTE with color
+/N=0
+barh 30/////////
+
+PROG RO     ULETTE with color
 M=100
-RR=1 3 5 7 9 12 14 16 18 19 21 25 27 30 32 34 36
+R=1 3 5 7 9 12 14 16 18 19 21 25 27 30 32 34 36
 G=2 4 6 8 10 11 13 15 17 20 22 24 26 28 29 31 33 35
+      
 WHILE 1
 DO
    M=M-1
@@ -19,28 +23,23 @@ DO
    IF S EQ 0
    THEN BARC 8
       ELSE
-      IF (+/(S EQ RR))
+      IF (+/(S EQ R))
       THEN BARC 4
       ELSE BARC 2
       ENDI
    ENDI
    IF (P EQ 3) AND (S EQ N)
-   THEN
-      "YOU WIN"
+   THEN "YOU WIN"
       M=M+35
       ELSE
-      IF (P EQ 1) AND ( +/ (S EQ RR))
-      THEN
-         "YOU WIN"
+      IF (P EQ 1) AND ( +/ (S EQ R))
+      THEN "YOU WIN"
          M=M+2
          ELSE
          IF   (P EQ 2) AND ( +/ (S EQ G))
-         THEN
-            "YOU WIN"
+         THEN "YOU WIN"
              M=M+2
-             IF (P EQ 2) AND (+/(S EQ G))
-             THEN "YOU WIN"
-                M=M+2
+
              ELSE "YOU LOSE"
          ENDI
       ENDI
