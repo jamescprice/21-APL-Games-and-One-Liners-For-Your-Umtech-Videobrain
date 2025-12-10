@@ -1,0 +1,32 @@
+prog change
+
+
+Q=D=N=P=0
+X=89                      
+
+PROG C                             
+IF X GE 25
+THEN Q=Q+1                             
+   X=X-25                                                 
+ELSE
+   IF X GE 10
+   THEN D=D+1
+      X=X-10
+   ELSE
+      IF X GE 5
+      THEN N=N+1
+         X=X-5
+      ELSE 
+         P=X
+         X=0
+        ENDI
+    ENDI
+ENDI   
+"X Q D N P"
+X,Q,D,N,P
+IF X GT 0
+   THEN C
+ENDI
+ENDP                   
+
+           
