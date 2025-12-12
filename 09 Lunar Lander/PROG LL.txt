@@ -9,16 +9,16 @@ WHILE H GT 0
 DO
    “T H V F”
    T,H,V,F
-   BARH T,(H ÷ 15),V,F ÷ 3
+   BARH T,(H÷15),V,F÷3
    B=KEYB
    IF B GT F
    THEN B=F
    ENDI
    V1=V-B+5
    F=F-B
-   H=H-0.5*(V+V1)
+   H=H-0.5x(V+V1)
    IF H GT 0
-   THEN 
+   THEN                                                             
       T=T+1
       V=V1
       IF F LE 0
@@ -26,7 +26,7 @@ DO
          WHILE H GT 0
          DO
             T,H,V,F
-            BARH T,(H ÷ 15),V,F ÷ 3
+            BARH T,(H÷15),V,F÷3                                         
             V1=V+5
             H=H-0.5x(V+V1)
             T=T+1
@@ -39,4 +39,4 @@ ENDW
 “T H V F”
 T,H,V,F
 “CONTACT”
-ENDP
+ENDP                                                                 
