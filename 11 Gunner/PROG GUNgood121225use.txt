@@ -1,0 +1,36 @@
+PROG GUN
+Z=S=S1=0
+BARC 10
+T=43000-RAND 30000
+R=46500
+"DISTANCE TO TARGET IS"
+T
+WHILE 1
+DO
+   "ELEVATION?"
+   B=KEYB
+   B2=2×(B÷57.3)
+   I=R×(SIN B2)
+   X=T-I
+   E=FLOOR X
+   IF ABS E LT 100
+   THEN "YOU WIN"
+   EXIT
+   ENDI
+   IF E GT 100
+   THEN "TOO SHORT BY"
+      BAR -30
+   ELSE
+        "TOO FAR BY"
+        BAR 30
+   ENDI
+   ABS E
+   S=S+1
+   IF S EQ 6
+   THEN "YOU LOSE"
+   EXIT
+   ENDI
+ENDW
+ENDP
+
+
