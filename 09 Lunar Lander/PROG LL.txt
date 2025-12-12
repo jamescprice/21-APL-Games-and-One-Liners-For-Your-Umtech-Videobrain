@@ -1,0 +1,42 @@
+
+PROG LL
+T=0
+H=1000
+V=50
+F=150
+BARC 3 2 9 4
+WHILE H GT 0
+DO
+   “T H V F”
+   T,H,V,F
+   BARH T,(H ÷ 15),V,F ÷ 3
+   B=KEYB
+   IF B GT F
+   THEN B=F
+   ENDI
+   V1=V-B+5
+   F=F-B
+   H=H-0.5*(V+V1)
+   IF H GT 0
+   THEN 
+      T=T+1
+      V=V1
+      IF F LE 0
+      THEN “OUT OF FUEL”
+         WHILE H GT 0
+         DO
+            T,H,V,F
+            BARH T,(H ÷ 15),V,F ÷ 3
+            V1=V+5
+            H=H-0.5x(V+V1)
+            T=T+1
+            V=V1
+         ENDW
+      ENDI
+   ELSE EXIT  
+   ENDI
+ENDW
+“T H V F”
+T,H,V,F
+“CONTACT”
+ENDP
