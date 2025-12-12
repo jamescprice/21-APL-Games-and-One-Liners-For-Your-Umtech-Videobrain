@@ -1,0 +1,43 @@
+G=ARRAY 7
+
+PROG UNI
+BARC INDEX 7
+X=INDEX 0
+D=2  
+WHILE  D  GT  SIZE  X
+DO
+   WHILE 1 
+   DO
+       V= -1+2*31                                              
+       V= -1+((RAND(2×V,(2×V)))÷V)                                   
+       IF  1 GT (S=+/(V*2))
+       THEN 
+          EXIT
+       ENDI
+   ENDW
+   X=X,V×(((-2×LOG S)÷S)*.5)     
+ENDW
+IF 1 EQ  (D MOD 2)  // odd dimensions 3, 5, 7 etcetera
+THEN
+   M=ARRAY D
+   MI=1
+   WHILE MI LE D
+   DO
+       M(MI) = X(MI)
+       MI=MI+1
+   ENDW
+   X=M
+ENDI
+X=X÷(+/(X*2)*.5)
+X
+IF D EQ 2
+THEN
+   I=CEIL (3.5+(X(1)×3))
+   H=CEIL (X(2)×64)
+   G(I) = H
+   BARH G
+ENDI
+ENDP
+
+
+=============================done
