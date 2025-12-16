@@ -2,22 +2,6 @@
 APL/S games for The Computational Language cartridge on the Umtech VideoBrai
 
 
-Using the VideoBrain with the MAME emulator:
-
-https://www.mamedev.org/release.html  - latest MAME release MAME 0.279  
-
-https://ia903204.us.archive.org/view_archive.php?archive=/29/items/mame-0.221-roms-merged/vidbrain.zip   put vidbrain.zip into the mame\roms folder
-
-https://www.seanriddle.com/apl/  - put complang.zip into the mame\roms folder
-
-https://www.seanriddle.com/videobrain.html
-
-https://www.seanriddle.com/vbinfo.html
-
-https://www.seanriddle.com/vb/
-
-https://orphanedgames.com/videobrain/f8_programming/f8_source.htm
-
 https://groups.io/g/Channel-F-and-VideoBrain/topic/101298602#msg23  - discussion of the ROMs
 
 (also see https://groups.io/g/Channel-F-and-VideoBrain/topic/74811426#msg7 and https://groups.io/g/Channel-F-and-VideoBrain/attachment/19/0/VideoBrain-APLS-Lot.jpg)
